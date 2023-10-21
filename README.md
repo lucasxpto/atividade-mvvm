@@ -1,16 +1,23 @@
 # biblioteca
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+lib/
+|-- main.dart
+|-- view/
+|   |-- home_page.dart
+|   |-- book_details_page.dart
+|   |-- widgets/
+|       |-- book_list_item.dart
+|-- viewmodel/
+|   |-- home_viewmodel.dart
+|   |-- book_details_viewmodel.dart
+|-- model/
+|   |-- book.dart
+|-- services/
+    |-- book_service.dart
+|-- test/
+|   |-- view/
+|       |-- home_page_test.dart
+|   |-- viewmodel/
+|       |-- home_viewmodel_test.dart
+|   |-- services/
+|       |-- book_service_test.dart
